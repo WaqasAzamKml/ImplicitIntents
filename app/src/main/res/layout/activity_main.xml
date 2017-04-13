@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dozydroid.implicitintents.MainActivity">
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter number here"
+        android:inputType="phone"/>
+    <Button
+        android:id="@+id/btnDial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dial Number"/>
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Call"/>
+
+</LinearLayout>
